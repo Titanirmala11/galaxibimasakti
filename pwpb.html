@@ -1,0 +1,165 @@
+<html>
+<head>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body{
+			font-family: arial;
+			padding: 10px;
+			background-image: url(galaxi4.jpg)
+		}
+		/* Header/Blog Title */
+		.header {
+			padding: 30px;
+			text-align: center;
+			background-image: url(oo.jpg)
+		}
+
+		.header h1 {
+			font-size: 50px;
+			text-decoration: white;
+		}
+		.header h2 {
+			font-size: 70px;
+			
+		}
+
+		/* Style the shop navigation bar */
+		.topnav {
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		/* Style the topnav links */
+		.topnav a {
+			float: left;
+			display: block;
+			color: plum;
+			text-align: center;
+			padding: 14px 16;
+			text-decoration: none;
+		}
+
+		/* Change the color on horver */
+		.topnav a:hover {
+			background-color: plum;
+			color: black;
+		}
+
+		/* create two unequal columns that float next to each other */
+		/* left column */
+		.leftcolum{
+			float: left;
+			width: 75%;
+			
+		}
+
+		/*Right column */
+		.rightcolumn {
+			float: left;
+			width: 25%;
+			background-color: plum;
+			padding-left: 20px;
+		}
+
+		/* fake image */
+		.fakeimg{
+			background-color: plum;
+			width: 100%;
+			padding: 20px;
+		}
+
+		/* add a card efect for the column */
+		.card{
+			background-color: plum;
+			padding: 20px;
+			margin-top: 20px;
+		}
+
+		/* clear floats effectbfor articles */
+		.row : after{
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		/* footer */
+		.footer {
+			padding: 20px;
+			text-align: center;
+			background: plum;
+			margin-top: 20px;
+		}
+
+		/* Responsive layout - when the  screen is less than 800px wide,make the two columns stack on top each other instead of next toeach other */
+		@media screen and (max-width : 800px){
+			.leftcolumn,rightcolumn{
+				width: 100%;
+				padding: 0%;
+			}
+		}
+
+		/* Responsive layout - when the screen is less than 400px wide,make the navigatin link stack on topeach other instead of next to each other */
+		@media screen and (max-width : 400px){
+			.topnav{ a
+				float: none;
+				width: 100px;
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<div class="header">
+		<h1>website</h1>
+		<img src="">
+		<h2>GALAXI BIMA SAKTI</h2>
+		<P>by titanirmala</P>
+	</div>
+
+	<div class="topnav">
+		<a href="link1.html">jenis dan bentuk</a>
+		<a href="link2.html">dinamika galaxi</a>
+		<a href="link3.html">tentang</a>
+		<a href="link4.html">pembentukan galaxi</a>
+		
+	</div>
+
+	<div class="row">
+		<div class="leftcolumn">
+			<div class="card">
+				<h2>TITLE HEADING </h2>
+				<h5>Title description,dec 7,2017</h5>
+				<img src="galaxi2.jpg" style= height="400px" width="100%">
+				<p>Galaksi (serapan dari bahasa Yunani γαλαξίας, artinya "semacam susu", merujuk kepada Bimasakti) adalah sebuah sistem masif yang terikat gaya gravitasi yang terdiri atas bintang (dengan segala bentuk manifestasinya, antara lain bintang neutron dan lubang hitam), gas dan debu medium antarbintang, dan materi gelap–komponen yang penting namun belum begitu dimengerti</p>
+			</div>
+		<div class="card">
+			<h2>TITLE HEAEDING</h2>
+			<h5>Title description,dec 7,2017</h5>
+				<img src="galaxi1.jpg" style= height="500px" width="100%">
+				<p>Kemungkinan terdapat lebih dari 170 miliar (1,7 × 1011) galaksi dalam alam semesta teramati.[8] Sebagian besar berdiameter 1000 hingga 100.000 parsec[9] dan biasanya dipisahkan oleh jarak beberapa juta parsec (atau megaparsec).[10] Ruang antargalaksi diisi oleh gas tipis dengan kerapatan massa kurang dari satu atom per meter kubik. Sebagian besar galaksi diorganisasikan ke dalam sebuah hierarki himpunan yang disebut kelompok dan gugus, yang pada gilirannya membentuk himpunan yang lebih besar yang disebut gugus raksasa. Dalam skala terbesar himpunan-himpunan ini umumnya tersusun dalam lapisan dan untaian yang dikelilingi oleh kehampaan yang sangat luas</p>
+			</div>
+		<div class="rightcolumn">
+			<div class="card">
+				<h2>GALAXI BIMASAKTI</h2>
+				<img src="galaxi3.jpg"style= height="500px" width="100%">
+				<p>Tiap galaksi memiliki jumlah sistem bintang dan gugus bintang yang beragam, demikian juga jenis awan antarbintangnya. Di antara galaksi-galaksi ini tersebar medium antarbintang berupa gas, debu, dan sinar kosmis. Lubang hitam supermasif terdapat di pusat sebagian besar galaksi. Diperkirakan lubang hitam supermasif inilah penyebab utama inti galaksi aktif yang ditemukan pada sebagian galaksi. Galaksi Bima Sakti diketahui memiliki setidaknya satu lubang hitam supermasif..</p>
+			</div>
+			
+			<img src="galaxi2.jpg" style=height="200px" width="100%">
+	        <img src="galaxi3.jpg" style=height="200px" width="100%">
+	        <img src="galaxi1.jpg" style=height="200px" width="100%">
+		</div>
+		<div class="card">
+			<h3>follow me</h3>
+			<p>cari lagi tentang galaxi lebih lanjut dengan ikuti website ini</p>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<p>copyright &copy; 2024 titanirmala,all right reserved.</p>
+</div>
+	</body>
+	</html>
